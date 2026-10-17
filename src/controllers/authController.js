@@ -35,11 +35,13 @@ const login =async(req,res)=>{
         if(!email || !password){
             throw new Error("please provide email or password");
         }
-        const user=await User.findOne({email}).select("password");
+        const user=await User.findOne({email}).select("+password");
 
         if(!user||(await user.correctPassword(password,user.password))===false){
             throw new Error("Incorrect email or password");
         }
+
+        
         createSendToken(user,200,res);
 
     }catch(error){
