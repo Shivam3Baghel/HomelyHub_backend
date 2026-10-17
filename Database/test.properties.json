@@ -1,0 +1,3081 @@
+[{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b1"
+  },
+  "propertyName": "Carnival Beach Residences",
+  "description": "A bright apartment two minutes from Calangute beach, with a shared pool and a balcony that catches the evening breeze. Good for couples and small families who want the sand close by.",
+  "propertyType": "Flat",
+  "roomType": "Room",
+  "maximumNight": 14,
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "AC",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Pool",
+      "icon": "pool"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_0_0",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_1",
+      "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_2",
+      "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_3",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_4",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_5",
+      "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_6",
+      "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_0_7",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    }
+  ],
+  "price": 1200,
+  "address": {
+    "area": "Calangute",
+    "city": "goa",
+    "state": "goa",
+    "pincode": 403516
+  },
+  "slug": "carnival-beach-residences",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68e374d202676ee26b530e6d"
+      },
+      "fromDate": {
+        "$date": "2025-10-07T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-11-13T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68c8416c9ea5671410a73a38"
+      },
+      "_id": {
+        "$oid": "68e374d202676ee26b530e6f"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "69250b3793a614d2cfdc46cf"
+      },
+      "fromDate": {
+        "$date": "2025-11-29T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-12-27T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68fb8dd22d1ed4e46ee819e3"
+      },
+      "_id": {
+        "$oid": "69250b3793a614d2cfdc46d1"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6957ef4aa12ca653a916fdc0"
+      },
+      "fromDate": {
+        "$date": "2026-01-02T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-01-17T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68fb8dd22d1ed4e46ee819e3"
+      },
+      "_id": {
+        "$oid": "6957ef4ba12ca653a916fdc2"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7af2806bd5d16d6fc51e5c"
+      },
+      "fromDate": {
+        "$date": "2026-08-11T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-13T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7aec56103b65b467e31e40"
+      },
+      "_id": {
+        "$oid": "6a7af2806bd5d16d6fc51e5e"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7af2d86bd5d16d6fc52344"
+      },
+      "fromDate": {
+        "$date": "2026-08-16T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-17T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7af26e6bd5d16d6fc51c24"
+      },
+      "_id": {
+        "$oid": "6a7af2d86bd5d16d6fc52346"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7d64ca656b1864c2ad9a77"
+      },
+      "fromDate": {
+        "$date": "2026-08-20T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-21T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a75c4ea8ac6efb11bf5bc28"
+      },
+      "_id": {
+        "$oid": "6a7d64ca656b1864c2ad9a79"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7da16c646ccb1e6ff08250"
+      },
+      "fromDate": {
+        "$date": "2026-09-07T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-09-09T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7da139646ccb1e6ff07999"
+      },
+      "_id": {
+        "$oid": "6a7da16c646ccb1e6ff08252"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a82f4f7b68787e4e6829e64"
+      },
+      "fromDate": {
+        "$date": "2026-08-27T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-09-29T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a82f30cb68787e4e6828085"
+      },
+      "_id": {
+        "$oid": "6a82f4f7b68787e4e6829e66"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Beach towels provided. Quiet hours after 11 pm."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b8"
+  },
+  "propertyName": "Opod's Coffee Estate Retreat",
+  "description": "A cottage inside a working coffee estate, with a verandah looking straight into the plantation. Trails to Mullayanagiri start close by.",
+  "propertyType": "Guest House",
+  "roomType": "Anytype",
+  "maximumNight": 7,
+  "maximumGuest": 10,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Pool",
+      "icon": "pool"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_2_0",
+      "url": "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_1",
+      "url": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_2",
+      "url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_3",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_4",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_5",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_6",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_2_7",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    }
+  ],
+  "price": 6000,
+  "address": {
+    "area": "Mudigere Road",
+    "city": "chikmagalur",
+    "state": "karnataka",
+    "pincode": 577101
+  },
+  "slug": "opod-s-coffee-estate-retreat",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68c7a59f4a38894175d46668"
+      },
+      "fromDate": {
+        "$date": "2025-09-30T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-10-05T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68c7a4fc4a38894175d46311"
+      },
+      "_id": {
+        "$oid": "68c7a59f4a38894175d4666a"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68df928be93a886956428c6f"
+      },
+      "fromDate": {
+        "$date": "2025-10-06T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-10-09T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68cc18b2206e1686d0ffee2b"
+      },
+      "_id": {
+        "$oid": "68df928be93a886956428c71"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7d97ea646ccb1e6ff04a09"
+      },
+      "fromDate": {
+        "$date": "2026-08-13T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-14T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7d92d570270d87fb8ff4ea"
+      },
+      "_id": {
+        "$oid": "6a7d97ea646ccb1e6ff04a0b"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Estate tour included. Mobile signal can be patchy."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b6"
+  },
+  "propertyName": "Spring House Orchard Cottage",
+  "description": "A wooden cottage in Old Manali looking onto an apple orchard, with a balcony over the Beas river valley. Cafes and the market are a short walk downhill.",
+  "propertyType": "House",
+  "roomType": "Room",
+  "maximumNight": 8,
+  "maximumGuest": 2,
+  "amenities": [
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_himalaya_0_0",
+      "url": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_1",
+      "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_2",
+      "url": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_0_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 2000,
+  "address": {
+    "area": "Old Manali",
+    "city": "manali",
+    "state": "himachalpradesh",
+    "pincode": 175131
+  },
+  "slug": "spring-house-orchard-cottage",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68cab6c2f48fadf9e6d4aa8b"
+      },
+      "fromDate": {
+        "$date": "2025-09-17T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-18T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68cab694f48fadf9e6d4a841"
+      },
+      "_id": {
+        "$oid": "68cab6c2f48fadf9e6d4aa8d"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68cc299d206e1686d0019d18"
+      },
+      "fromDate": {
+        "$date": "2025-09-19T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-20T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68cc2869206e1686d0019045"
+      },
+      "_id": {
+        "$oid": "68cc299e206e1686d0019d1a"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "690b265d9df10b362a5c799f"
+      },
+      "fromDate": {
+        "$date": "2025-12-02T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-12-03T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68fc82cb8145d1453980c481"
+      },
+      "_id": {
+        "$oid": "690b265d9df10b362a5c79a1"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7d92eb70270d87fb8ffdfc"
+      },
+      "fromDate": {
+        "$date": "2026-08-13T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-14T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7d92d570270d87fb8ff4ea"
+      },
+      "_id": {
+        "$oid": "6a7d92eb70270d87fb8ffdfe"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7f4df2538aff0176598cab"
+      },
+      "fromDate": {
+        "$date": "2026-08-20T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-22T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7f4db5538aff0176598807"
+      },
+      "_id": {
+        "$oid": "6a7f4df2538aff0176598cad"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Room heater provided. Parking is on the main road."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b3"
+  },
+  "propertyName": "Olive Coastal Inn",
+  "description": "A relaxed room on the East Coast Road with sea air and a rooftop that fills up at sunset. A short drive from the beach and the shore temples.",
+  "propertyType": "Guest House",
+  "roomType": "Entire Home",
+  "maximumNight": 12,
+  "maximumGuest": 10,
+  "amenities": [
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_6_0",
+      "url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_1",
+      "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_2",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_3",
+      "url": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_4",
+      "url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_5",
+      "url": "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_6_7",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
+    }
+  ],
+  "price": 3000,
+  "address": {
+    "area": "East Coast Road",
+    "city": "chennai",
+    "state": "tamilnadu",
+    "pincode": 600119
+  },
+  "slug": "olive-coastal-inn",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68a6c5c4e87a9dfb701faef7"
+      },
+      "fromDate": {
+        "$date": "2025-08-21T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-08-22T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68a5752081fdb0f483080b46"
+      },
+      "_id": {
+        "$oid": "68a6c5c4e87a9dfb701faef9"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68b574329032d7582dd56b14"
+      },
+      "fromDate": {
+        "$date": "2025-09-01T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-05T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68b573c29032d7582dd56251"
+      },
+      "_id": {
+        "$oid": "68b574329032d7582dd56b16"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "691ec845d1312bf86a2b2a25"
+      },
+      "fromDate": {
+        "$date": "2025-11-20T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-12-11T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "691ea3b9bd0943dfd7b91401"
+      },
+      "_id": {
+        "$oid": "691ec845d1312bf86a2b2a27"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a78466fad52ed24f303a5bb"
+      },
+      "fromDate": {
+        "$date": "2026-08-09T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-17T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a75c4ea8ac6efb11bf5bc28"
+      },
+      "_id": {
+        "$oid": "6a78466fad52ed24f303a5bd"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7993df13d8de4a79b275f2"
+      },
+      "fromDate": {
+        "$date": "2026-08-22T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-24T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a75c4ea8ac6efb11bf5bc28"
+      },
+      "_id": {
+        "$oid": "6a7993df13d8de4a79b275f4"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7dd56c84eab290732bc9a0"
+      },
+      "fromDate": {
+        "$date": "2026-08-27T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-29T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7da139646ccb1e6ff07999"
+      },
+      "_id": {
+        "$oid": "6a7dd56c84eab290732bc9a2"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Rooftop open till 10 pm."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b2"
+  },
+  "propertyName": "SRS Garden City Suites",
+  "description": "A serviced suite in Indiranagar with a workspace and fast wifi, built for people in the city for work. Cafes, metro and the pub street are all within walking distance.",
+  "propertyType": "Hotel",
+  "roomType": "Room",
+  "maximumNight": 21,
+  "maximumGuest": 3,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Pool",
+      "icon": "pool"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_city_0_0",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_1",
+      "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_2",
+      "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_3",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_4",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_5",
+      "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_6",
+      "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_0_7",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    }
+  ],
+  "price": 2500,
+  "address": {
+    "area": "Indiranagar",
+    "city": "bangalore",
+    "state": "karnataka",
+    "pincode": 560038
+  },
+  "slug": "srs-garden-city-suites",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68b9ad59921d2805d43e32c6"
+      },
+      "fromDate": {
+        "$date": "2025-09-04T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-08T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68b573c29032d7582dd56251"
+      },
+      "_id": {
+        "$oid": "68b9ad59921d2805d43e32c8"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Self check-in with a lockbox."
+},
+{
+  "_id": {
+    "$oid": "65b88b46ba3e508a5850f8c3"
+  },
+  "propertyName": "Xavier's Portuguese Villa",
+  "description": "A restored Portuguese villa in old Panjim, with high ceilings, tiled floors and a shaded courtyard. Walk to the Latin Quarter and the riverside in ten minutes.",
+  "propertyType": "Guest House",
+  "roomType": "Entire Home",
+  "maximumNight": 14,
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_1_0",
+      "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_1",
+      "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_2",
+      "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_3",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_4",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_5",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_1_7",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    }
+  ],
+  "price": 4500,
+  "address": {
+    "area": "Fontainhas, Panjim",
+    "city": "goa",
+    "state": "goa",
+    "pincode": 403001
+  },
+  "userId": {
+    "$oid": "659fb171e1ca590ef412e697"
+  },
+  "slug": "xavier-s-portuguese-villa",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68c7a89d4a38894175d49cfc"
+      },
+      "fromDate": {
+        "$date": "2025-09-18T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-21T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68c7a84b4a38894175d49bc3"
+      },
+      "_id": {
+        "$oid": "68c7a89d4a38894175d49cfe"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "690b5cc4fca9ddaba90c663b"
+      },
+      "fromDate": {
+        "$date": "2025-11-06T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-11-08T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "690b5c68fca9ddaba90c64e7"
+      },
+      "_id": {
+        "$oid": "690b5cc4fca9ddaba90c663d"
+      }
+    }
+  ],
+  "__v": 0,
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Breakfast can be arranged on request."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874bd"
+  },
+  "propertyName": "Sunnyside Hilltop Cottage",
+  "description": "A cheerful cottage above Kodaikanal lake with big windows and a garden that catches the morning sun. Easy walking distance to the boat house.",
+  "propertyType": "Guest House",
+  "roomType": "Entire Home",
+  "maximumNight": 10,
+  "maximumGuest": 8,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_4_0",
+      "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_1",
+      "url": "https://images.unsplash.com/photo-1511497584788-876760111969?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_2",
+      "url": "https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_4_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 3500,
+  "address": {
+    "area": "Lake Road",
+    "city": "kodaikanal",
+    "state": "tamilnadu",
+    "pincode": 624101
+  },
+  "slug": "sunnyside-hilltop-cottage",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68a6c60be87a9dfb701fb5d2"
+      },
+      "fromDate": {
+        "$date": "2025-08-21T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-08-22T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68a5752081fdb0f483080b46"
+      },
+      "_id": {
+        "$oid": "68a6c60ce87a9dfb701fb5d4"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6923f319b814e6fefffb0c6d"
+      },
+      "fromDate": {
+        "$date": "2025-11-27T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-12-10T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "691dc4c1b7fd68d3886a3f85"
+      },
+      "_id": {
+        "$oid": "6923f319b814e6fefffb0c6f"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Bonfire can be arranged in the garden."
+},
+{
+  "_id": {
+    "$oid": "65c20dd8e9ef8e3b6898516f"
+  },
+  "propertyName": "Karthika Backwater Villa",
+  "description": "A calm villa on the Alleppey backwaters with its own sit-out over the water. Houseboats drift past all day and the sunsets are the main event.",
+  "extraInfo": "Canoe available free of charge.",
+  "propertyType": "House",
+  "roomType": "Anytype",
+  "maximumGuest": 10,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi",
+      "_id": {
+        "$oid": "65c20dd8e9ef8e3b68985170"
+      }
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_backwater_kerala_0",
+      "url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_1",
+      "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_2",
+      "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_backwater_0_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 4000,
+  "address": {
+    "area": "Punnamada",
+    "city": "alleppey",
+    "state": "kerala",
+    "pincode": 688006
+  },
+  "userId": {
+    "$oid": "65b794327bfa5862fc55fddb"
+  },
+  "checkInTime": "11:00",
+  "checkOutTime": "10:00",
+  "currentBookings": [],
+  "slug": "karthika-backwater-villa",
+  "__v": 0,
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00"
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b5"
+  },
+  "propertyName": "The Bougainvillea Estate",
+  "description": "A colonial style estate house in Ooty with a fireplace, a long lawn and old trees around it. Quiet, spacious and made for slow mornings.",
+  "propertyType": "House",
+  "roomType": "Entire home",
+  "maximumNight": 12,
+  "maximumGuest": 6,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_5_0",
+      "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_1",
+      "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_2",
+      "url": "https://images.unsplash.com/photo-1476231682828-37e571bc172f?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_3",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_4",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_5",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_5_7",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    }
+  ],
+  "price": 5000,
+  "address": {
+    "area": "Fernhill",
+    "city": "ooty",
+    "state": "tamilnadu",
+    "pincode": 643004
+  },
+  "slug": "the-bougainvillea-estate",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "6907c63ac384519f441a701c"
+      },
+      "fromDate": {
+        "$date": "2025-11-03T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-11-05T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6907c569c384519f441a6daa"
+      },
+      "_id": {
+        "$oid": "6907c63ac384519f441a701e"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Firewood provided. Pets allowed on request."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874bc"
+  },
+  "propertyName": "Royal Presidential Suite",
+  "description": "A large suite in central Kolkata with tall windows and colonial era furniture. Park Street and the Maidan are both within walking distance.",
+  "propertyType": "Flat",
+  "roomType": "Room",
+  "maximumNight": 10,
+  "maximumGuest": 6,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_heritage_4_0",
+      "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_1",
+      "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_2",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_4_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 5000,
+  "address": {
+    "area": "Park Street",
+    "city": "kolkata",
+    "state": "westbengal",
+    "pincode": 700016
+  },
+  "slug": "royal-presidential-suite",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68cc2936206e1686d0019a6d"
+      },
+      "fromDate": {
+        "$date": "2025-09-18T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-19T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68cc2869206e1686d0019045"
+      },
+      "_id": {
+        "$oid": "68cc2936206e1686d0019a6f"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Airport pickup available on request."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b4"
+  },
+  "propertyName": "Misty Hills Munnar Farmstay",
+  "description": "A working cardamom farm stay surrounded by tea slopes, with a wood fireplace for cold evenings. Wake up to mist over the valley and fresh filter coffee.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumNight": 6,
+  "maximumGuest": 8,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Washing Machine",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_0_0",
+      "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_1",
+      "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_2",
+      "url": "https://images.unsplash.com/photo-1511497584788-876760111969?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_0_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 2800,
+  "address": {
+    "area": "Chithirapuram",
+    "city": "munnar",
+    "state": "kerala",
+    "pincode": 685565
+  },
+  "slug": "misty-hills-munnar-farmstay",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68a6c5eee87a9dfb701fb25b"
+      },
+      "fromDate": {
+        "$date": "2025-08-21T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-08-22T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68a5752081fdb0f483080b46"
+      },
+      "_id": {
+        "$oid": "68a6c5eee87a9dfb701fb25d"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68c7a8d44a38894175d4a29f"
+      },
+      "fromDate": {
+        "$date": "2025-09-27T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-10-07T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68c7a7134a38894175d487f0"
+      },
+      "_id": {
+        "$oid": "68c7a8d54a38894175d4a2a1"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68cc222e206e1686d0011afc"
+      },
+      "fromDate": {
+        "$date": "2025-09-18T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-22T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68cc212f206e1686d0010c5f"
+      },
+      "_id": {
+        "$oid": "68cc222e206e1686d0011afe"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68e5f86a1d1bb7741920350e"
+      },
+      "fromDate": {
+        "$date": "2025-10-08T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-10-10T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68cc228a206e1686d00123ba"
+      },
+      "_id": {
+        "$oid": "68e5f86a1d1bb77419203510"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "68fc832b8145d1453980c826"
+      },
+      "fromDate": {
+        "$date": "2025-11-05T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-11-06T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68fc82cb8145d1453980c481"
+      },
+      "_id": {
+        "$oid": "68fc832b8145d1453980c828"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a79a88a831a81437bf216de"
+      },
+      "fromDate": {
+        "$date": "2026-08-14T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-15T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a79a807831a81437bf20b8d"
+      },
+      "_id": {
+        "$oid": "6a79a88a831a81437bf216e0"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7af0de6bd5d16d6fc4fa7d"
+      },
+      "fromDate": {
+        "$date": "2026-08-11T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-13T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7aec56103b65b467e31e40"
+      },
+      "_id": {
+        "$oid": "6a7af0de6bd5d16d6fc4fa7f"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7af2b16bd5d16d6fc51e9a"
+      },
+      "fromDate": {
+        "$date": "2026-08-16T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-08-18T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7af26e6bd5d16d6fc51c24"
+      },
+      "_id": {
+        "$oid": "6a7af2b16bd5d16d6fc51e9c"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Farm walk included. Carry warm clothes, nights get cold."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b7"
+  },
+  "propertyName": "Pink City Heritage Suite",
+  "description": "A suite in a restored haveli near the old city, with jharokha windows and hand painted arches. Hawa Mahal and the bazaars are a short auto ride away.",
+  "propertyType": "Flat",
+  "roomType": "Room",
+  "maximumNight": 8,
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_heritage_3_0",
+      "url": "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_1",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_2",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_3",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_4",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_5",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_6",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_3_7",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    }
+  ],
+  "price": 3500,
+  "address": {
+    "area": "Bani Park",
+    "city": "jaipur",
+    "state": "rajasthan",
+    "pincode": 302016
+  },
+  "slug": "pink-city-heritage-suite",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "6a7ee4008e8d8942c84c9424"
+      },
+      "fromDate": {
+        "$date": "2026-09-15T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-09-17T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7ee35a8e8d8942c84c84b3"
+      },
+      "_id": {
+        "$oid": "6a7ee4008e8d8942c84c9426"
+      }
+    },
+    {
+      "bookingId": {
+        "$oid": "6a7ee4308e8d8942c84c948c"
+      },
+      "fromDate": {
+        "$date": "2026-09-15T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2026-09-17T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "6a7ee35a8e8d8942c84c84b3"
+      },
+      "_id": {
+        "$oid": "6a7ee4308e8d8942c84c948e"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Rooftop breakfast available."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874ba"
+  },
+  "propertyName": "Tender Coco Seaside Villa",
+  "description": "A breezy villa near Somnath with a coconut grove between the house and the sea. Simple, quiet and a few minutes from the temple.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumNight": 7,
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Pool",
+      "icon": "pool"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_7_0",
+      "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_1",
+      "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_2",
+      "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_3",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_4",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_5",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_6",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_7_7",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    }
+  ],
+  "price": 3000,
+  "address": {
+    "area": "Veraval Road",
+    "city": "somnath",
+    "state": "gujarat",
+    "pincode": 362268
+  },
+  "slug": "tender-coco-seaside-villa",
+  "currentBookings": [],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Vegetarian kitchen only."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874bb"
+  },
+  "propertyName": "Snow Lion Ladakh Lodge",
+  "description": "A traditional Ladakhi lodge in Leh with thick walls, warm bedding and a sun room for the afternoons. Good starting point for Pangong and Nubra trips.",
+  "propertyType": "Hotel",
+  "roomType": "Anytype",
+  "maximumNight": 7,
+  "maximumGuest": 16,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_colddesert_1_0",
+      "url": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_1",
+      "url": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_2",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_3",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_4",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_5",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_1_7",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    }
+  ],
+  "price": 4000,
+  "address": {
+    "area": "Changspa",
+    "city": "leh",
+    "state": "ladakh",
+    "pincode": 194101
+  },
+  "slug": "snow-lion-ladakh-lodge",
+  "currentBookings": [
+    {
+      "bookingId": {
+        "$oid": "68c7a95b4a38894175d4a3cf"
+      },
+      "fromDate": {
+        "$date": "2025-09-20T00:00:00.000Z"
+      },
+      "toDate": {
+        "$date": "2025-09-30T00:00:00.000Z"
+      },
+      "userId": {
+        "$oid": "68c7a8b24a38894175d49d2e"
+      },
+      "_id": {
+        "$oid": "68c7a95b4a38894175d4a3d1"
+      }
+    }
+  ],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Take the first day easy to adjust to the altitude."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874b9"
+  },
+  "propertyName": "Namah Himalayan Boutique Resort",
+  "description": "A boutique resort on the Kedarnath trekking route with river facing rooms and a warm dining hall. A practical, comfortable base before the climb.",
+  "propertyType": "Hotel",
+  "roomType": "Anytype",
+  "maximumNight": 12,
+  "maximumGuest": 16,
+  "amenities": [
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_himalaya_2_0",
+      "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_1",
+      "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_2",
+      "url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_3",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_4",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_5",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_6",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_2_7",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    }
+  ],
+  "price": 2500,
+  "address": {
+    "area": "Sonprayag",
+    "city": "kedarnath",
+    "state": "uttarakhand",
+    "pincode": 246471
+  },
+  "slug": "namah-himalayan-boutique-resort",
+  "currentBookings": [],
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Guide can be arranged. Hot water in fixed hours."
+},
+{
+  "_id": {
+    "$oid": "65b79a6cb2598ba2c46874be"
+  },
+  "propertyName": "Little Haven Garden Retreat",
+  "description": "A quiet two bedroom home in Koregaon Park with a walled garden and plenty of shade. Cafes and the river path are close by.",
+  "propertyType": "Flat",
+  "roomType": "Room",
+  "maximumNight": 14,
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_city_2_0",
+      "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_1",
+      "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_2",
+      "url": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_3",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_4",
+      "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_5",
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_6",
+      "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_2_7",
+      "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80"
+    }
+  ],
+  "price": 5000,
+  "address": {
+    "area": "Koregaon Park",
+    "city": "pune",
+    "state": "maharashtra",
+    "pincode": 411001
+  },
+  "slug": "little-haven-garden-retreat",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "extraInfo": "Garden is shared with the owner's family."
+},
+{
+  "_id": {
+    "$oid": "6a775019b52a73ee1001a911"
+  },
+  "propertyName": "Whitefield Skyline Apartment",
+  "description": "A modern two bedroom apartment on the eighteenth floor with a gym and rooftop pool in the building. Handy for the tech parks and the airport road.",
+  "extraInfo": "Lift access. Building has 24 hour security.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 10,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi",
+      "_id": {
+        "$oid": "6a775019b52a73ee1001a912"
+      }
+    },
+    {
+      "name": "Free Parking",
+      "icon": "garage_home",
+      "_id": {
+        "$oid": "6a775019b52a73ee1001a913"
+      }
+    },
+    {
+      "name": "Tv",
+      "icon": "tv",
+      "_id": {
+        "$oid": "6a775019b52a73ee1001a914"
+      }
+    },
+    {
+      "name": "Pool",
+      "icon": "pool",
+      "_id": {
+        "$oid": "6a775019b52a73ee1001a915"
+      }
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_city_1_0",
+      "url": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_1",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_2",
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_3",
+      "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_4",
+      "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_5",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_6",
+      "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_city_1_7",
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80"
+    }
+  ],
+  "price": 7000,
+  "address": {
+    "area": "Whitefield",
+    "city": "bangalore",
+    "state": "karnataka",
+    "pincode": 560066
+  },
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "currentBookings": [],
+  "slug": "whitefield-skyline-apartment",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b833836"
+  },
+  "propertyName": "Anjuna Cliff House",
+  "description": "A cliff top house above Anjuna with a wide sea view deck and a small private pool. The famous flea market is a ten minute walk down the lane.",
+  "extraInfo": "Steep steps to the entrance. Not ideal for very young children.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 6,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Pool",
+      "icon": "pool"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_2_0",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_1",
+      "url": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_2",
+      "url": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_3",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_4",
+      "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_5",
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_6",
+      "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_2_7",
+      "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80"
+    }
+  ],
+  "price": 5200,
+  "address": {
+    "area": "Anjuna",
+    "city": "goa",
+    "state": "goa",
+    "pincode": 403509
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "anjuna-cliff-house",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b833837"
+  },
+  "propertyName": "Palolem Beach Shack Villa",
+  "description": "A wooden villa a few steps from quiet Palolem beach in south Goa, with hammocks on the porch. Calm, warm and good for a slow week by the sea.",
+  "extraInfo": "Kayaks available. Beach is a two minute walk.",
+  "propertyType": "Guest House",
+  "roomType": "Entire Home",
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_3_0",
+      "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_1",
+      "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_2",
+      "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_3",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_4",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_5",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_6",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_3_7",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    }
+  ],
+  "price": 2800,
+  "address": {
+    "area": "Palolem",
+    "city": "goa",
+    "state": "goa",
+    "pincode": 403702
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "palolem-beach-shack-villa",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b833838"
+  },
+  "propertyName": "Assagao Garden Bungalow",
+  "description": "A large bungalow in leafy Assagao with a mango tree courtyard and an outdoor dining table. Built for groups who want space and quiet between beach days.",
+  "extraInfo": "Cook can be arranged for an extra charge.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 8,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Pool",
+      "icon": "pool"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Washing Machine",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_4_0",
+      "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_1",
+      "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_2",
+      "url": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_3",
+      "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_4",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_5",
+      "url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_6",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_4_7",
+      "url": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=1200&q=80"
+    }
+  ],
+  "price": 6500,
+  "address": {
+    "area": "Assagao",
+    "city": "goa",
+    "state": "goa",
+    "pincode": 403507
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "assagao-garden-bungalow",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b833839"
+  },
+  "propertyName": "Fort Kochi Heritage Home",
+  "description": "A heritage home in Fort Kochi with antique wooden furniture and a shaded inner courtyard. The Chinese fishing nets and the cafes are a short stroll away.",
+  "extraInfo": "Filter coffee and breakfast included.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 5,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_heritage_0_0",
+      "url": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_1",
+      "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_2",
+      "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_0_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 3600,
+  "address": {
+    "area": "Fort Kochi",
+    "city": "kochi",
+    "state": "kerala",
+    "pincode": 682001
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "fort-kochi-heritage-home",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b83383a"
+  },
+  "propertyName": "Wayanad Treetop Cabin",
+  "description": "A raised cabin among the trees in Wayanad, with a glass front looking into the forest canopy. Birdsong in the morning and complete quiet at night.",
+  "extraInfo": "Torch provided. Paths are unlit after dark.",
+  "propertyType": "Guest House",
+  "roomType": "Entire Home",
+  "maximumGuest": 3,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_1_0",
+      "url": "https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_1",
+      "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_2",
+      "url": "https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_3",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_4",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_5",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_1_7",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    }
+  ],
+  "price": 4200,
+  "address": {
+    "area": "Vythiri",
+    "city": "wayanad",
+    "state": "kerala",
+    "pincode": 673576
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "wayanad-treetop-cabin",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b83383b"
+  },
+  "propertyName": "Kovalam Sea Breeze Flat",
+  "description": "A simple flat on the hill above Kovalam beach, with a balcony facing the lighthouse. Easy walk down to the sand and the seafood places.",
+  "extraInfo": "Third floor, no lift.",
+  "propertyType": "Flat",
+  "roomType": "Entire Home",
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Washing Machine",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_beach_5_0",
+      "url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_1",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_2",
+      "url": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_3",
+      "url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_4",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_5",
+      "url": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_6",
+      "url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_beach_5_7",
+      "url": "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=1200&q=80"
+    }
+  ],
+  "price": 2400,
+  "address": {
+    "area": "Lighthouse Beach",
+    "city": "kovalam",
+    "state": "kerala",
+    "pincode": 695527
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "kovalam-sea-breeze-flat",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b83383c"
+  },
+  "propertyName": "Coorg Plantation Bungalow",
+  "description": "A planter's bungalow set inside a coffee and pepper estate in Coorg, with a long verandah and a fireplace. Waterfalls and viewpoints are a short drive away.",
+  "extraInfo": "Estate walk with the caretaker included.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 6,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Washing Machine",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_3_0",
+      "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_1",
+      "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_2",
+      "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_3",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_4",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_5",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_6",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_3_7",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    }
+  ],
+  "price": 4800,
+  "address": {
+    "area": "Madikeri",
+    "city": "coorg",
+    "state": "karnataka",
+    "pincode": 571201
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "coorg-plantation-bungalow",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b83383d"
+  },
+  "propertyName": "Hampi Boulder View Cottage",
+  "description": "A small cottage across the river from Hampi, looking out at the boulder fields and paddy. Cycles at the gate for getting to the ruins.",
+  "extraInfo": "River crossing by boat until 6 pm only.",
+  "propertyType": "Guest House",
+  "roomType": "Room",
+  "maximumGuest": 2,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_heritage_1_0",
+      "url": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_1_1",
+      "url": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_hampi_2",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_1_3",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_1_4",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_1_5",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_1_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_1_7",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    }
+  ],
+  "price": 1800,
+  "address": {
+    "area": "Virupapura Gaddi",
+    "city": "hampi",
+    "state": "karnataka",
+    "pincode": 583239
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "hampi-boulder-view-cottage",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776020d68825cf6b83383e"
+  },
+  "propertyName": "Pondy White Town Studio",
+  "description": "A bright studio in the French quarter with shuttered windows and bougainvillea over the gate. Promenade beach and the bakeries are around the corner.",
+  "extraInfo": "Bicycles available for guests.",
+  "propertyType": "Flat",
+  "roomType": "Entire Home",
+  "maximumGuest": 2,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Ac",
+      "icon": "ac_unit"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_heritage_2_0",
+      "url": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_1",
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_2",
+      "url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_3",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_4",
+      "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_5",
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_6",
+      "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_heritage_2_7",
+      "url": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1200&q=80"
+    }
+  ],
+  "price": 3100,
+  "address": {
+    "area": "White Town",
+    "city": "pondicherry",
+    "state": "tamilnadu",
+    "pincode": 605001
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "pondy-white-town-studio",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776021d68825cf6b83383f"
+  },
+  "propertyName": "Yercaud Coffee Hill Cottage",
+  "description": "A hillside cottage above Yercaud lake surrounded by coffee and orange trees. Cool through the year with a garden made for long breakfasts.",
+  "extraInfo": "Bonfire on request. Roads are winding, drive slowly.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 5,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Washing Machine",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_6_0",
+      "url": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_1",
+      "url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_2",
+      "url": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_3",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_4",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_5",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_6",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_6_7",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    }
+  ],
+  "price": 2600,
+  "address": {
+    "area": "Lake Road",
+    "city": "yercaud",
+    "state": "tamilnadu",
+    "pincode": 636601
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "yercaud-coffee-hill-cottage",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776021d68825cf6b833840"
+  },
+  "propertyName": "Kasol Riverside Cabin",
+  "description": "A pine cabin right on the Parvati river in Kasol, close enough to hear the water all night. Trails to Kheerganga start from the village.",
+  "extraInfo": "Heater provided. Carry cash, ATMs are limited.",
+  "propertyType": "Guest House",
+  "roomType": "Entire Home",
+  "maximumGuest": 4,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_7_0",
+      "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_1",
+      "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_2",
+      "url": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_3",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_4",
+      "url": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_5",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_6",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_7_7",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    }
+  ],
+  "price": 2200,
+  "address": {
+    "area": "Chalal Road",
+    "city": "kasol",
+    "state": "himachalpradesh",
+    "pincode": 175105
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "kasol-riverside-cabin",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776021d68825cf6b833841"
+  },
+  "propertyName": "Bir Billing Paragliding Lodge",
+  "description": "A lodge at the Bir landing site where you can watch gliders come down over breakfast. Simple warm rooms and a sunny common terrace.",
+  "extraInfo": "Paragliding booking help available at the desk.",
+  "propertyType": "Guest House",
+  "roomType": "Room",
+  "maximumGuest": 3,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_greenhills_8_0",
+      "url": "https://images.unsplash.com/photo-1511497584788-876760111969?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_1",
+      "url": "https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_2",
+      "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_3",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_4",
+      "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_5",
+      "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_6",
+      "url": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_greenhills_8_7",
+      "url": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&q=80"
+    }
+  ],
+  "price": 1900,
+  "address": {
+    "area": "Chowgan",
+    "city": "bir",
+    "state": "himachalpradesh",
+    "pincode": 176077
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "bir-billing-paragliding-lodge",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776021d68825cf6b833842"
+  },
+  "propertyName": "Shimla Colonial Cottage",
+  "description": "A stone cottage on the ridge above Shimla with deodar trees around it and a fireplace inside. Mall Road is a fifteen minute walk downhill.",
+  "extraInfo": "Parking is at the road, a short walk from the house.",
+  "propertyType": "House",
+  "roomType": "Entire Home",
+  "maximumGuest": 6,
+  "amenities": [
+    {
+      "name": "Wifi",
+      "icon": "wifi"
+    },
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Tv",
+      "icon": "tv"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    },
+    {
+      "name": "Washing Machine",
+      "icon": "local_laundry_service"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_himalaya_1_0",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_1",
+      "url": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_2",
+      "url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_3",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_4",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_5",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_6",
+      "url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_himalaya_1_7",
+      "url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=1200&q=80"
+    }
+  ],
+  "price": 3800,
+  "address": {
+    "area": "Jakhu Hill",
+    "city": "shimla",
+    "state": "himachalpradesh",
+    "pincode": 171001
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "shimla-colonial-cottage",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a776021d68825cf6b833843"
+  },
+  "propertyName": "Spiti Valley Mud House",
+  "description": "A traditional mud brick house in Kaza with thick warm walls and a courtyard facing the mountains. Very basic, very quiet, and the night sky is extraordinary.",
+  "extraInfo": "Electricity is limited in the evenings. High altitude, rest on arrival.",
+  "propertyType": "Guest House",
+  "roomType": "Room",
+  "maximumGuest": 2,
+  "amenities": [
+    {
+      "name": "Kitchen",
+      "icon": "kitchen"
+    },
+    {
+      "name": "Free Parking",
+      "icon": "local_parking"
+    }
+  ],
+  "images": [
+    {
+      "public_id": "hh_colddesert_0_0",
+      "url": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_1",
+      "url": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_2",
+      "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_3",
+      "url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_4",
+      "url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_5",
+      "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_6",
+      "url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=1200&q=80"
+    },
+    {
+      "public_id": "hh_colddesert_0_7",
+      "url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=1200&q=80"
+    }
+  ],
+  "price": 1600,
+  "address": {
+    "area": "Kaza",
+    "city": "spiti",
+    "state": "himachalpradesh",
+    "pincode": 172114
+  },
+  "currentBookings": [],
+  "userId": {
+    "$oid": "6a75c4ea8ac6efb11bf5bc28"
+  },
+  "slug": "spiti-valley-mud-house",
+  "chekInTime": "13:00",
+  "chekOutTime": "11:00",
+  "__v": 0
+}]
