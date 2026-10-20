@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser";
 import {router} from "./routes/userRoutes.js";
 import connectDB from "./utils/db.js";
 import {propertyRouter} from "./routes/propertyRouter.js";
+import { bookingRouter } from "./routes/bookingRouter.js";
 
 const app=express();
 dotenv.config();
@@ -26,6 +27,7 @@ app.get("/",(req,res)=>{
 
 app.use("/api/v1/rent/user",router);
 app.use("/api/v1/rent/listing",propertyRouter);
+app.use("/api/v1/rent/user/booking",bookingRouter)
 
 connectDB();
 

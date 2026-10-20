@@ -26,7 +26,6 @@ const signup=async(req,res)=>{
         res.status(400).json({message:error.message});
     }
 }
-export {signup};
 
 //login: check email & password, then gives token
 const login =async(req,res)=>{
@@ -48,4 +47,41 @@ const login =async(req,res)=>{
         res.status(401).json({status:"fail",message:error.message});
     }
 }
-export {login};
+//protect
+const protect=async(req,res,next)=>{
+    try{
+        let token;
+        if(req.headers.authorization&&req.headers.authorization.startsWith("Bearer")){
+            token=req.headers.authorization.split(" ")[1];
+        }else if(req.cookies.jwt && req.cookies.jwt!=="loggedout"){
+            token=req.cookies.jwt;
+        }
+
+        //step-2-no token so stop here
+        if(!token){
+            throw new Error("you are not logged in!! please login to access this route");
+        }
+        
+        //step-3-check whether token is real or not
+        const decoded=jwt.verify(token,process.env.JWT_SECRET);
+        
+        //step-4-token is real but check whether user still exists
+        const currentUser=await User.findById(decoded.id);
+        if(!currentUser){
+            throw new Error("the user belonging to this token no longer exists");
+        }
+
+        //step-5-stolen token case
+        if(currentUser.changedPasswordAfter(decoded.iat)){
+            throw new Error("user recently changed the password, please login again");
+        }
+
+        //step-6-all checks passed, grant access to protected route
+        req.user=currentUser;
+        next();
+    }catch(error){
+        res.status(401).json({status:"fail",message:error.message});
+    }
+};
+
+export {signup,login,protect};

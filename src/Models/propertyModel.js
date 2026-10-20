@@ -73,7 +73,22 @@ const propertySchema= new mongoose.Schema({
     },
     //will add soon
     currentBookings:[
-
+        {
+            bookingId:{
+                type:mongoose.Schema.Types.ObjectId,
+                ref:"Booking"
+            },
+            fromDate:{
+                type:Date
+            },
+            toDate:{
+                type:Date
+            },
+            userId:{
+                type:mongoose.Schema.Types.ObjectId,
+                ref:"User"
+            }
+        }
     ],
     userId:{
         type:mongoose.Schema.Types.ObjectId,
@@ -93,5 +108,6 @@ propertySchema.pre("save",function(next){
     this.address.area=this.address.area.toLowerCase().replaceAll(" ", "");
     next();
 });
-const Property=mongoose.model("Property",propertySchema);
+// const Property=mongoose.model("Property",propertySchema);
+const Property=mongoose.model.Property || mongoose.model("Property",propertySchema)
 export {Property};
