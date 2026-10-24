@@ -6,8 +6,9 @@ import {router} from "./routes/userRoutes.js";
 import connectDB from "./utils/db.js";
 import {propertyRouter} from "./routes/propertyRouter.js";
 import { bookingRouter } from "./routes/bookingRouter.js";
-
+//remember
 const app=express();
+//remember
 dotenv.config();
 const port=process.env.PORT;
 

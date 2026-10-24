@@ -23,30 +23,61 @@ const createOrder=async(req,res)=>{
 // 2. block the dates of the property
 
 const verifyPayment=async(req,res)=>{
-    const {orderId,bookingDetails,forceStatus}=req.body;
+    const {orderId,bookingDetails,forceStatus}=req.body ?? {};
 
-    if(forceStatus==="success"){
+    if(forceStatus!=="success"){
+        return res.status(400).json({
+            success:false,
+            message:"Payment failed, booking not confirmed",
+            orderId
+        })
+    }
+
+    if(!bookingDetails || typeof bookingDetails!=="object"){
+        return res.status(400).json({
+            success:false,
+            message:"bookingDetails is required"
+        })
+    }
+
+    const {propertyId,amount,fromDate,toDate,guests,numberOfNights}=bookingDetails;
+    if(!propertyId || amount===undefined || !fromDate || !toDate || guests===undefined){
+        return res.status(400).json({
+            success:false,
+            message:"propertyId, amount, fromDate, toDate, and guests are required"
+        })
+    }
+
+    try{
+        const property=await Property.findById(propertyId);
+        if(!property){
+            return res.status(404).json({
+                success:false,
+                message:"Property not found"
+            })
+        }
+
         const paymentId="pay_"+Date.now();
 
         const newBooking=await  Booking.create({
             user:req.user._id,
-            property:bookingDetails.propertyId,
-            price:bookingDetails.amount,
-            fromDate:bookingDetails.fromDate,
-            toDate:bookingDetails.toDate,
-            guests:bookingDetails.guests,
-            numberOfNights:bookingDetails.numberOfNights,
+            property:propertyId,
+            price:amount,
+            fromDate,
+            toDate,
+            guests,
+            numberOfNights,
             paid:true
         });
 
         //tell property model that these dates are booked
-        const updatedProperty=await Property.findByIdAndUpdate(
-            bookingDetails.propertyId,{
+        await Property.findByIdAndUpdate(
+            propertyId,{
                 $push:{
                     currentBookings:{
                         bookingId:newBooking._id,
-                        fromDate:bookingDetails.fromDate,
-                        toDate:bookingDetails.toDate,
+                        fromDate,
+                        toDate,
                         userId:req.user._id
                     }
                 }
@@ -61,11 +92,11 @@ const verifyPayment=async(req,res)=>{
             orderId,
             booking:newBooking
         })
-    }else{
-        res.status(400).json({
+    }catch(error){
+        console.error("Payment verification failed:",error);
+        res.status(500).json({
             success:false,
-            message:"Payment failed, booking not confirmed",
-            orderId
+            message:error.message
         })
     }
 };
@@ -107,4 +138,4 @@ const getBookingDetails=async(req,res)=>{
         })
     }
 }
-export {getBookingDetails,getUserBookings,createOrder,verifyPayment}
+export {getBookingDetails,getUserBookings,createOrder,verifyPayment};

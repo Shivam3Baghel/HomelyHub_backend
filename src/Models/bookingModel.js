@@ -45,10 +45,9 @@ const bookingSchema=new mongoose.Schema({
 bookingSchema.pre(/^find/,function(next){
     this.populate("user");
     this.populate({
-        path:property,
+        path:"property",
         select:"maximumGuest images propertyName address"
     });
-    next();
 });
 
 const Booking=mongoose.model("Booking",bookingSchema);
