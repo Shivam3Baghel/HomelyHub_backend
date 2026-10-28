@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import crypto from "node:crypto";
 import validator from "validator";
-
+//schema means a schema is a structured framework, blueprint,
+//  or mental outline used to organize information.
 const userSchema=new mongoose.Schema(
     {
         name:{
