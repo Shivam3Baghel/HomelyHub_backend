@@ -1,3 +1,5 @@
+//authController=authentication Controller
+
 import { User } from "../Models/userModel.js";
 import jwt from "jsonwebtoken";
 import crypto from "node:crypto";
