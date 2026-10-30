@@ -8,7 +8,7 @@ import {propertyRouter} from "./routes/propertyRouter.js";
 import { bookingRouter } from "./routes/bookingRouter.js";
 //remember
 const app=express();
-//remember
+//remember below
 dotenv.config();
 const port=process.env.PORT;
 
