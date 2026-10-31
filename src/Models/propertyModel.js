@@ -1,5 +1,8 @@
 import slugify from "slugify";
 import mongoose from "mongoose";
+
+//name description
+
 const propertySchema= new mongoose.Schema({
     propertyName:{
         type:String,
