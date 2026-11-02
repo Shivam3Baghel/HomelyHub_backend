@@ -2,7 +2,7 @@
 // text frequently or multiple times
 import mongoose from "mongoose";
 
-//memorise the below statement(in multiple lines)-
+//memorise the below statement showing the use of async function(in multiple lines)-
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI);
